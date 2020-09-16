@@ -4,6 +4,8 @@
  * Description: A plugin containing Block Patterns to Gutenberg.
  * Version: 1.0
  * Author: Mervin Praison 
+ * Author URI: https://mer.vin/
+ * Plugin URI: https://github.com/Praison/Patterns
  */
 
 /**
