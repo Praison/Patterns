@@ -6,6 +6,8 @@ New Block Patterns to Gutenberg.
 
 This plugin contains patterns for you to check out, ranging from a simple text pattern to a more complex pattern containing both images and text.
 
+[Download WordPress Block Patterns Plugin](https://wordpress.org/plugins/patterns/ "Download WordPress Block Patterns Plugin")
+
 ## Add your block patterns to this plugin
 
 1. Fork
