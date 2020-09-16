@@ -36,13 +36,13 @@ git fetch upstream
 git checkout -b YOUR_USERNAME upstream/master
     `
 
-5. Add blocks in ``index.php``
+5. Add your block patterns in ``index.php``
     `
 register_block_pattern(
-    'praison-gutenberg-block-patterns/TITLE-OF-YOUR-BLOCK',  # Add Hyphens between lowercase words
+    'praison-gutenberg-block-patterns/TITLE-OF-YOUR-BLOCK-PATTERN',  # Add Hyphens between lowercase words
     array(
-        'title'   => __( 'TITLE_OF_YOUR_BLOCK', 'praison-gutenberg-block-patterns' ),
-        'content' => "BLOCK_CONTENT_GOES_HERE",
+        'title'   => __( 'TITLE_OF_YOUR_BLOCK_PATTERN', 'praison-gutenberg-block-patterns' ),
+        'content' => "BLOCK_PATTERN_GOES_HERE",
         'categories' => array("CATEGORY"), # eg: columns, text ..etc
     )
 );
@@ -51,7 +51,7 @@ register_block_pattern(
 6. Add, Commit, Push
     `
 git add .
-git commit -m "Added block TITLE_OF_YOUR_BLOCK"
+git commit -m "Added block pattern TITLE_OF_YOUR_BLOCK"
 git push -u origin YOUR_USERNAME
     `
 

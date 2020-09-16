@@ -19,10 +19,10 @@ function praison_patterns_register_block_patterns() {
 
 		/*
 		register_block_pattern(
-			'praison-gutenberg-block-patterns/TITLE-OF-YOUR-BLOCK',  # Add Hyphens between lowercase words
+			'praison-gutenberg-block-patterns/TITLE-OF-YOUR-BLOCK-PATTERN',  # Add Hyphens between lowercase words
 			array(
-				'title'   => __( 'TITLE_OF_YOUR_BLOCK', 'praison-gutenberg-block-patterns' ),
-				'content' => "BLOCK_CONTENT_GOES_HERE",
+				'title'   => __( 'TITLE_OF_YOUR_BLOCK_PATTERN', 'praison-gutenberg-block-patterns' ),
+				'content' => "BLOCK_PATTERN_GOES_HERE",
 				'categories' => array("CATEGORY"), # eg: columns, text ..etc
 			)
 		);
