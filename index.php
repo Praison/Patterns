@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Patterns
+ * Plugin Name: Block Patterns
  * Description: A plugin containing Block Patterns to Gutenberg.
  * Version: 1.0
  * Author: Mervin Praison 

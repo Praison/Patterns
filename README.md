@@ -1,4 +1,4 @@
-# Patterns
+# WordPress Block Patterns Plugin
 
 New Block Patterns to Gutenberg.
 

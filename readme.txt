@@ -1,4 +1,4 @@
-=== Patterns ===
+=== Block Patterns ===
 Contributors: mervinpraison
 Donate Link: https://goo.gl/Q4oiBG
 Tags: gutenberg, blocks, block, pattern, patterns, block patterns, block pattern, blocks pattern, blocks patterns,
