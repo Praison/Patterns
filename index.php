@@ -14,8 +14,20 @@
 function praison_patterns_register_block_patterns() {
 	if ( function_exists( 'register_block_pattern' ) ) {
 		/**
-		 * Register block patterns
+		 * Add your block patterns below
 		 */
+
+		/*
+		register_block_pattern(
+			'praison-gutenberg-block-patterns/TITLE-OF-YOUR-BLOCK',  # Add Hyphens between lowercase words
+			array(
+				'title'   => __( 'TITLE_OF_YOUR_BLOCK', 'praison-gutenberg-block-patterns' ),
+				'content' => "BLOCK_CONTENT_GOES_HERE",
+				'categories' => array("CATEGORY"), # eg: columns, text ..etc
+			)
+		);
+		*/
+
 		register_block_pattern(
 			'praison-gutenberg-block-patterns/intro-two-columns',
 			array(
